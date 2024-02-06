@@ -55,3 +55,18 @@ p {
 .shake {
     animation: shake 0.5s infinite;
 }
+
+/* Add this CSS for explosion effect */
+.explosion {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    animation: explode 1s linear;
+}
+
+@keyframes explode {
+    0% { transform: scale(0); }
+    100% { transform: scale(4); opacity: 0; }
+}
