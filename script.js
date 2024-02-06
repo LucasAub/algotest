@@ -38,9 +38,3 @@ lucasName.addEventListener('click', function() {
 remyName.addEventListener('click', function() {
     changeColor(this);
 });
-
-// Add event listener to the alert button
-alertButton.addEventListener('click', function() {
-    createExplosion();
-    alert("Hey there! Thanks for clicking me!");
-});
