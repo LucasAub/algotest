@@ -1,4 +1,3 @@
 # algotest
 
-Thsis is a test for the algorithm
-```
+This is a test for the algorithm
